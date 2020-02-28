@@ -1,9 +1,8 @@
 package airportDemo;
 
-import airportDemo.airTrasports.Aircraft;
 import airportDemo.airTrasports.TypeOfTransport;
 
-import java.util.function.Predicate;
+
 
 public class StartAirportDemo {
 
@@ -20,12 +19,12 @@ public class StartAirportDemo {
         a.allplanes.add(a.planesService.buyNewAirplane("Boing609", 300000, 60, TypeOfTransport.CARGO));
 
 
-        System.out.println("\nвыаести на экран все пассажирские самолеты: " );
+//        System.out.println("\nвыаести на экран все пассажирские самолеты: " );
         a.print();
         a.sort();
-        System.out.println("\nвсе самолеты отсортированы по дальности полёта:");
+//        System.out.println("\nвсе самолеты отсортированы по дальности полёта:");
         a.print();
-        System.out.println("\nвсе самолеты расход топлива которых от 30 до 50: ");
+//        System.out.println("\nвсе самолеты расход топлива которых от 30 до 50: ");
         a.search();
 
 

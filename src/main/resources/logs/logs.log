@@ -1,0 +1,42 @@
+2020-02-28 14:39:09:764 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:39:09:772 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:39:20:839 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:39:20:845 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:42:58:815 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:42:58:819 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:42:58:819 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:42:58:820 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:42:58:821 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:42:58:821 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:42:58:824 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:42:58:826 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:44:26:855 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:26:858 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:26:858 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:26:858 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:26:859 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:26:859 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:26:861 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:44:26:863 INFO  Airport:print:27 - Это информационное сообщение!
+2020-02-28 14:44:51:092 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:51:097 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:51:097 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:51:098 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:51:098 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:51:098 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:44:51:100 INFO  Airport:print:27 - Вывожу на экран все самолётики: 
+2020-02-28 14:44:51:102 INFO  Airport:print:27 - Вывожу на экран все самолётики: 
+2020-02-28 14:45:52:141 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:45:52:146 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:45:52:146 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:45:52:147 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:45:52:147 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:45:52:147 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
+2020-02-28 14:45:52:150 INFO  Airport:print:27 - 
+ Вывожу на экран все самолётики: 
+2020-02-28 14:45:52:151 INFO  Airport:sort:35 - 
+ самолётики отсортированы!
+2020-02-28 14:45:52:152 INFO  Airport:print:27 - 
+ Вывожу на экран все самолётики: 
+2020-02-28 14:45:52:153 INFO  Airport:search:41 - 
+ найдён искомый самолётик: 
