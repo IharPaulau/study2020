@@ -1,34 +1,35 @@
 package airportDemo;
 
-import airportDemo.airTrasports.TypeOfTransport;
 
-
+import airportDemo.airpotImplement.AirlineServiceImplementation;
+import airportDemo.airpotImplement.PlaneServiceImplementation;
+import airportDemo.service.AirlineService;
+import airportDemo.service.PlaneService;
 
 public class StartAirportDemo {
+    private static AirlineService airportService = new AirlineServiceImplementation();
+    private static PlaneService planeService = new PlaneServiceImplementation();
 
     public static void main(String[] args) {
 
 
-            Airport a= new Airport("Aeroport de Paris-Charles-de-Gaulle");
-
-        a.allplanes.add(a.planesService.buyNewAirplane("Boing708", 270000, 53, TypeOfTransport.PASSANGER));
-        a.allplanes.add(a.planesService.buyNewAirplane("Boing708", 250000, 55, TypeOfTransport.PASSANGER));
-        a.allplanes.add(a.planesService.buyNewAirplane("Boing709", 300000, 78, TypeOfTransport.PASSANGER));
-        a.allplanes.add(a.planesService.buyNewAirplane("Boing607", 200000, 28, TypeOfTransport.CARGO));
-        a.allplanes.add(a.planesService.buyNewAirplane("Boing608", 250000, 48, TypeOfTransport.CARGO));
-        a.allplanes.add(a.planesService.buyNewAirplane("Boing609", 300000, 60, TypeOfTransport.CARGO));
-
-
-//        System.out.println("\nвыаести на экран все пассажирские самолеты: " );
-        a.print();
-        a.sort();
-//        System.out.println("\nвсе самолеты отсортированы по дальности полёта:");
-        a.print();
-//        System.out.println("\nвсе самолеты расход топлива которых от 30 до 50: ");
-        a.search();
-
-
+        Airline airline = airportService.makeNewAirline("Бел-Авиа");
+        airportService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing708", 270000,
+                53, 150, 2));
+        airportService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing709", 250000,
+                55, 155, 3));
+        airportService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing727", 300000,
+                78,200, 5));
+        airportService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing737", 270000,
+                53, 250, 6));
+        airportService.buyNewPlane(airline, planeService.createNewCargoPlane("Boing608", 250000,
+                48, 25));
+        airportService.buyNewPlane(airline, planeService.createNewCargoPlane("Boing609", 300000,
+                60,35));
 
 
     }
+
+
 }
+

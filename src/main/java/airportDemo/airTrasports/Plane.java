@@ -1,21 +1,35 @@
 package airportDemo.airTrasports;
 
-public class Plane extends Aircraft {
+public class Plane {
 
-    private String modelName;
+    private int fuelTank;
+    private int fuelConsumption; // per 100 kilometers
 
 
-    public Plane(String modelName, int fuelTank, int fuelWaste, TypeOfTransport typeOfTransport) {
-        super(fuelTank, fuelWaste, typeOfTransport);
-        this.modelName = modelName;
+    public Plane(int fuelTank, int fuelConsumption) {
+        this.fuelTank = fuelTank;
+        this.fuelConsumption = fuelConsumption;
+
     }
 
-    public String getModelName() {
-        return modelName;
+    public int getMaxDistance() {
+        return fuelTank / fuelConsumption;
+    }
+
+    public int getFuelConsumption() {
+        return fuelConsumption;
+    }
+
+    public int getFuelTank() {
+        return fuelTank;
     }
 
     @Override
     public String toString() {
-        return modelName + super.toString();
+        return " " +
+                "fuelTank=" + fuelTank +
+                ", fuelWaste=" + fuelConsumption +
+                "maximum distance " +
+                " " + getMaxDistance();
     }
 }
