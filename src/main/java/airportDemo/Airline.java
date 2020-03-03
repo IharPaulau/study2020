@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Airline {
     private String name;
-    private List<Plane> allplanes = new ArrayList<>();
+    private List<Plane> planes = new ArrayList<>();
 
 
     public Airline(String name) {
@@ -20,7 +20,7 @@ public class Airline {
     }
 
     public List<Plane> getPlanes() {
-        return allplanes;
+        return planes;
     }
 }
 

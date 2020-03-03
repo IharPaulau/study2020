@@ -1,29 +1,26 @@
 package airportDemo.airTrasports;
 
 public class PassengerPlane extends Plane {
+
     private int passengerCapacity;
-    private int cargoCapacity; // a passenger plane also carries some cargo
-    private String modelName;
 
-
-    public PassengerPlane(String modelName, int fuelTank, int fuelConsumption, int passengerCapacity, int cargoCapacity ) {
-        super(fuelTank, fuelConsumption);
+    public PassengerPlane(int fuelTank, int fuelConsumption, String modelName, int passengerCapacity) {
+        super(fuelTank, fuelConsumption, modelName);
         this.passengerCapacity = passengerCapacity;
-        this.modelName = modelName;
-        this.cargoCapacity = cargoCapacity;
     }
-
-
 
     public int getPassengerCapacity() {
         return passengerCapacity;
     }
 
-    public int getCargoCapacity() {
-        return cargoCapacity;
-    }
 
-    public String getModelName() {
-        return modelName;
+    @Override
+    public String toString() {
+        return "CargoPlane{" +
+                " passengerCapacity=" + passengerCapacity +
+                " fueltank " + super.getFuelTank() +
+                " fuelconsumption " + super.getFuelConsumption() +
+                " maksimum distance = " + super.getMaxDistance() +
+                '}';
     }
 }

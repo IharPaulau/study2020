@@ -3,20 +3,23 @@ package airportDemo.airTrasports;
 public class CargoPlane extends Plane {
 
     private int cargoCapacity;
-    private String modelName;
 
-
-    public CargoPlane(String modelName, int fuelTank, int fuelConsumption, int cargoCapacity) {
-        super(fuelTank, fuelConsumption);
+    public CargoPlane(int fuelTank, int fuelConsumption, String modelName, int cargoCapacity) {
+        super(fuelTank, fuelConsumption, modelName);
         this.cargoCapacity = cargoCapacity;
-        this.modelName = modelName;
     }
 
     public int getCargoCapacity() {
         return cargoCapacity;
     }
 
-    public String getModelName() {
-        return modelName;
+    @Override
+    public String toString() {
+        return "CargoPlane{" +
+                " cargoCapacity=" + cargoCapacity +
+                " fueltank " + super.getFuelTank() +
+                " fuelconsumption " + super.getFuelConsumption() +
+                " maksimum distance = " + super.getMaxDistance() +
+                '}';
     }
 }
