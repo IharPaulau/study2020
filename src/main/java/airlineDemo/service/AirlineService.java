@@ -1,7 +1,7 @@
-package airportDemo.service;
+package airlineDemo.service;
 
-import airportDemo.Airline;
-import airportDemo.airTrasports.Plane;
+import airlineDemo.models.airline.Airline;
+import airlineDemo.models.aircrafts.Plane;
 
 import java.util.List;
 
@@ -16,7 +16,7 @@ public interface AirlineService {
 
     public void sortByMaxDistance(Airline airline);
 
-    public void searchPlaneByParameters(List<Plane> planes, int maxValue, int minValue);
+    public Plane searchPlaneByParameters(List<Plane> planes, int maxValue, int minValue);
 
     public int totalPassengerCapacity(Airline airline);
 

@@ -1,4 +1,4 @@
-package airportDemo.airTrasports;
+package airlineDemo.models.aircrafts;
 
 public class CargoPlane extends Plane {
 

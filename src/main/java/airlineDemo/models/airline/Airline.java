@@ -1,6 +1,6 @@
-package airportDemo;
+package airlineDemo.models.airline;
 
-import airportDemo.airTrasports.Plane;
+import airlineDemo.models.aircrafts.Plane;
 
 import java.util.*;
 

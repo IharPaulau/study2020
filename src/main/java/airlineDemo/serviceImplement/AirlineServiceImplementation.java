@@ -1,10 +1,10 @@
-package airportDemo.serviceImplement;
+package airlineDemo.serviceImplement;
 
-import airportDemo.Airline;
-import airportDemo.airTrasports.CargoPlane;
-import airportDemo.airTrasports.PassengerPlane;
-import airportDemo.airTrasports.Plane;
-import airportDemo.service.AirlineService;
+import airlineDemo.models.airline.Airline;
+import airlineDemo.models.aircrafts.CargoPlane;
+import airlineDemo.models.aircrafts.PassengerPlane;
+import airlineDemo.models.aircrafts.Plane;
+import airlineDemo.service.AirlineService;
 import org.apache.log4j.Logger;
 
 import java.util.Comparator;
@@ -43,19 +43,19 @@ public class AirlineServiceImplementation implements AirlineService {
         LOGGER.info("Sort planes by max distance...");
         List<Plane> planes = airline.getPlanes();
         planes.sort(Comparator.comparing(Plane::getMaxDistance).reversed());
-
     }
 
     @Override
-    public void searchPlaneByParameters(List<Plane> planes, int maxValue, int minValue) {
+    public Plane searchPlaneByParameters(List<Plane> planes, int maxValue, int minValue) {
         for (Plane plane : planes) {
             if (plane.getFuelConsumption() > minValue && plane.getFuelConsumption() < maxValue) {
                 LOGGER.info(String.format("this plane (modelName='%s') has fuel consumption in the given parameters " +
                         "from '%d' to '%d'", plane.getModelName(), minValue, maxValue));
 
+                return plane;
             }
         }
-
+            return null;
     }
 
     @Override
