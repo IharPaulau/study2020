@@ -1,6 +1,6 @@
-package airlineDemo.models.airline;
+package airlinedemo.models.airline;
 
-import airlineDemo.models.aircrafts.Plane;
+import airlinedemo.models.aircrafts.Plane;
 
 import java.util.*;
 
@@ -8,7 +8,6 @@ import java.util.*;
 public class Airline {
     private String name;
     private List<Plane> planes = new ArrayList<>();
-
 
     public Airline(String name) {
 

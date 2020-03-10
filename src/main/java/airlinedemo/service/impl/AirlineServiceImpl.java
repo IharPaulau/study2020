@@ -1,23 +1,21 @@
-package airlineDemo.serviceImplement;
+package airlinedemo.service.impl;
 
-import airlineDemo.models.airline.Airline;
-import airlineDemo.models.aircrafts.CargoPlane;
-import airlineDemo.models.aircrafts.PassengerPlane;
-import airlineDemo.models.aircrafts.Plane;
-import airlineDemo.service.AirlineService;
+import airlinedemo.models.airline.Airline;
+import airlinedemo.models.aircrafts.CargoPlane;
+import airlinedemo.models.aircrafts.PassengerPlane;
+import airlinedemo.models.aircrafts.Plane;
+import airlinedemo.service.AirlineService;
 import org.apache.log4j.Logger;
 
 import java.util.Comparator;
 import java.util.List;
 
-public class AirlineServiceImplementation implements AirlineService {
-    private static final Logger LOGGER = Logger.getLogger(AirlineServiceImplementation.class);
-
+public class AirlineServiceImpl implements AirlineService {
+    private static final Logger LOGGER = Logger.getLogger(AirlineServiceImpl.class);
 
     @Override
-    public Airline makeNewAirline(String name) {
-        Airline airline = new Airline(name);
-        return airline;
+    public Airline createNewAirline(String name) {
+        return new Airline(name);
     }
 
     @Override
@@ -26,9 +24,7 @@ public class AirlineServiceImplementation implements AirlineService {
         planes.add(plane);
         LOGGER.info(String.format("New plane (modelName='%s') was bought by airport (name='%s')",
                 plane.getModelName(), airline.getName()));
-
     }
-
 
     @Override
     public void showAllPlanes(Airline airline) {
@@ -55,7 +51,7 @@ public class AirlineServiceImplementation implements AirlineService {
                 return plane;
             }
         }
-            return null;
+        return null;
     }
 
     @Override

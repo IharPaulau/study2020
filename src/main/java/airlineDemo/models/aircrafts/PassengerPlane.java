@@ -1,4 +1,4 @@
-package airlineDemo.models.aircrafts;
+package airlinedemo.models.aircrafts;
 
 public class PassengerPlane extends Plane {
 
@@ -16,11 +16,11 @@ public class PassengerPlane extends Plane {
 
     @Override
     public String toString() {
-        return "CargoPlane{" +
-                " passengerCapacity=" + passengerCapacity +
-                " fueltank " + super.getFuelTank() +
-                " fuelconsumption " + super.getFuelConsumption() +
-                " maksimum distance = " + super.getMaxDistance() +
+        return "PassengerPlane{" +
+                " passengerCapacity = " + passengerCapacity +
+                " fuelTank " + getFuelTank() +
+                " fuelConsumption " + getFuelConsumption() +
+                " maxdistance = " + getMaxDistance() +
                 '}';
     }
 }

@@ -1,35 +1,31 @@
-package airlineDemo;
+package airlinedemo;
 
 
-import airlineDemo.models.airline.Airline;
-import airlineDemo.serviceImplement.AirlineServiceImplementation;
-import airlineDemo.serviceImplement.PlaneServiceImplementation;
-import airlineDemo.service.AirlineService;
-import airlineDemo.service.PlaneService;
+import airlinedemo.models.airline.Airline;
+import airlinedemo.service.impl.AirlineServiceImpl;
+import airlinedemo.service.impl.PlaneServiceImpl;
+import airlinedemo.service.AirlineService;
+import airlinedemo.service.PlaneService;
 
 
 public class StartAirportDemo {
-
-    private static AirlineService airlineService = new AirlineServiceImplementation();
-    private static PlaneService planeService = new PlaneServiceImplementation();
+    private static AirlineService airlineService = new AirlineServiceImpl();
+    private static PlaneService planeService = new PlaneServiceImpl();
 
     public static void main(String[] args) {
-
-
-        Airline airline = airlineService.makeNewAirline("Бел-Авиа");
-        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing708", 270000,
+        Airline airline = airlineService.createNewAirline("Grodno_AIR");
+        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boeing708", 270000,
                 53, 150));
-        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing709", 250000,
+        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boeing709", 250000,
                 55, 155));
-        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing727", 300000,
-                78,200));
-        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boing737", 270000,
+        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boeing727", 300000,
+                78, 200));
+        airlineService.buyNewPlane(airline, planeService.createNewPassengerPlane("Boeing737", 270000,
                 53, 250));
-        airlineService.buyNewPlane(airline, planeService.createNewCargoPlane("Boing608", 250000,
+        airlineService.buyNewPlane(airline, planeService.createNewCargoPlane("Boeing608", 250000,
                 48, 25));
-        airlineService.buyNewPlane(airline, planeService.createNewCargoPlane("Boing609", 300000,
-                60,35));
-
+        airlineService.buyNewPlane(airline, planeService.createNewCargoPlane("Boeing609", 300000,
+                60, 35));
 
         airlineService.showAllPlanes(airline);
         airlineService.sortByMaxDistance(airline);
@@ -37,10 +33,6 @@ public class StartAirportDemo {
         airlineService.searchPlaneByParameters(airline.getPlanes(), 50, 30);
         airlineService.totalPassengerCapacity(airline);
         airlineService.totalCarryingCapacity(airline);
-
-
     }
-
-
 }
 

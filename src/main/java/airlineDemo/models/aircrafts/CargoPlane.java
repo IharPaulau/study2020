@@ -1,4 +1,4 @@
-package airlineDemo.models.aircrafts;
+package airlinedemo.models.aircrafts;
 
 public class CargoPlane extends Plane {
 
@@ -17,9 +17,9 @@ public class CargoPlane extends Plane {
     public String toString() {
         return "CargoPlane{" +
                 " cargoCapacity=" + cargoCapacity +
-                " fueltank " + super.getFuelTank() +
-                " fuelconsumption " + super.getFuelConsumption() +
-                " maksimum distance = " + super.getMaxDistance() +
+                " fuelTank " + getFuelTank() +
+                " fuelConsumption " + getFuelConsumption() +
+                " maxdistance = " + getMaxDistance() +
                 '}';
     }
 }
