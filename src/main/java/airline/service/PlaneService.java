@@ -1,7 +1,7 @@
-package airlinedemo.service;
+package airline.service;
 
-import airlinedemo.models.aircrafts.CargoPlane;
-import airlinedemo.models.aircrafts.PassengerPlane;
+import airline.models.aircrafts.CargoPlane;
+import airline.models.aircrafts.PassengerPlane;
 
 
 public interface PlaneService {

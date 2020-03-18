@@ -1,4 +1,4 @@
-package airlinedemo.models.aircrafts;
+package airline.models.aircrafts;
 
 public abstract class Plane {
 

@@ -1,8 +1,8 @@
-package airlinedemo.service.impl;
+package airline.service.impl;
 
-import airlinedemo.models.aircrafts.CargoPlane;
-import airlinedemo.models.aircrafts.PassengerPlane;
-import airlinedemo.service.PlaneService;
+import airline.models.aircrafts.CargoPlane;
+import airline.models.aircrafts.PassengerPlane;
+import airline.service.PlaneService;
 import org.apache.log4j.Logger;
 
 public class PlaneServiceImpl implements PlaneService {

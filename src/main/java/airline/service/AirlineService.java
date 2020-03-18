@@ -1,7 +1,7 @@
-package airlinedemo.service;
+package airline.service;
 
-import airlinedemo.models.airline.Airline;
-import airlinedemo.models.aircrafts.Plane;
+import airline.models.airline.Airline;
+import airline.models.aircrafts.Plane;
 
 import java.util.List;
 

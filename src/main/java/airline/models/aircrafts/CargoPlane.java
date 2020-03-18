@@ -1,4 +1,4 @@
-package airlinedemo.models.aircrafts;
+package airline.models.aircrafts;
 
 public class CargoPlane extends Plane {
 
@@ -12,6 +12,7 @@ public class CargoPlane extends Plane {
     public int getCargoCapacity() {
         return cargoCapacity;
     }
+
 
     @Override
     public String toString() {

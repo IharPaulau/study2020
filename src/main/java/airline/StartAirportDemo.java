@@ -1,11 +1,11 @@
-package airlinedemo;
+package airline;
 
 
-import airlinedemo.models.airline.Airline;
-import airlinedemo.service.impl.AirlineServiceImpl;
-import airlinedemo.service.impl.PlaneServiceImpl;
-import airlinedemo.service.AirlineService;
-import airlinedemo.service.PlaneService;
+import airline.models.airline.Airline;
+import airline.service.impl.AirlineServiceImpl;
+import airline.service.impl.PlaneServiceImpl;
+import airline.service.AirlineService;
+import airline.service.PlaneService;
 
 
 public class StartAirportDemo {

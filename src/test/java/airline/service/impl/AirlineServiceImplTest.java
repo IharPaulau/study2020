@@ -1,11 +1,11 @@
-package airlinedemo.service.impl;
+package airline.service.impl;
 
-import airlinedemo.models.aircrafts.CargoPlane;
-import airlinedemo.models.aircrafts.PassengerPlane;
-import airlinedemo.models.aircrafts.Plane;
-import airlinedemo.models.airline.Airline;
-import airlinedemo.service.AirlineService;
-import airlinedemo.service.PlaneService;
+import airline.models.aircrafts.CargoPlane;
+import airline.models.aircrafts.PassengerPlane;
+import airline.models.aircrafts.Plane;
+import airline.models.airline.Airline;
+import airline.service.AirlineService;
+import airline.service.PlaneService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

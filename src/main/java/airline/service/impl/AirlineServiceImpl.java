@@ -1,10 +1,10 @@
-package airlinedemo.service.impl;
+package airline.service.impl;
 
-import airlinedemo.models.airline.Airline;
-import airlinedemo.models.aircrafts.CargoPlane;
-import airlinedemo.models.aircrafts.PassengerPlane;
-import airlinedemo.models.aircrafts.Plane;
-import airlinedemo.service.AirlineService;
+import airline.models.airline.Airline;
+import airline.models.aircrafts.CargoPlane;
+import airline.models.aircrafts.PassengerPlane;
+import airline.models.aircrafts.Plane;
+import airline.service.AirlineService;
 import org.apache.log4j.Logger;
 
 import java.util.Comparator;
