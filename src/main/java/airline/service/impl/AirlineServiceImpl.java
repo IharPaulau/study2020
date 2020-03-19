@@ -22,13 +22,13 @@ public class AirlineServiceImpl implements AirlineService {
     public void buyNewPlane(Airline airline, Plane plane) {
         List<Plane> planes = airline.getPlanes();
         planes.add(plane);
-        LOGGER.info(String.format("New plane (modelName='%s') was bought by airport (name='%s')",
+        LOGGER.info(String.format("New plane (modelName='%s') was bought by airline (name='%s')",
                 plane.getModelName(), airline.getName()));
     }
 
     @Override
     public void showAllPlanes(Airline airline) {
-        LOGGER.info("display all planes: ");
+        LOGGER.info("Display all planes: ");
         for (Plane plane : airline.getPlanes()) {
             LOGGER.info(plane);
         }
@@ -45,7 +45,7 @@ public class AirlineServiceImpl implements AirlineService {
     public Plane searchPlaneByParameters(List<Plane> planes, int maxValue, int minValue) {
         for (Plane plane : planes) {
             if (plane.getFuelConsumption() > minValue && plane.getFuelConsumption() < maxValue) {
-                LOGGER.info(String.format("this plane (modelName='%s') has fuel consumption in the given parameters " +
+                LOGGER.info(String.format("Plane (modelName='%s') has fuel consumption in the given parameters " +
                         "from '%d' to '%d'", plane.getModelName(), minValue, maxValue));
 
                 return plane;
@@ -61,7 +61,7 @@ public class AirlineServiceImpl implements AirlineService {
             if (plane instanceof CargoPlane)
                 result += ((CargoPlane) plane).getCargoCapacity();
         }
-        LOGGER.info(String.format("total carrying capacity of all '%s' planes = '%d'", airline.getName(), result));
+        LOGGER.info(String.format("Total carrying capacity of all '%s' planes = '%d'", airline.getName(), result));
         return result;
     }
 
@@ -72,7 +72,7 @@ public class AirlineServiceImpl implements AirlineService {
             if (plane instanceof PassengerPlane)
                 result += ((PassengerPlane) plane).getPassengerCapacity();
         }
-        LOGGER.info(String.format("total passenger capacity of all '%s' planes = '%d'", airline.getName(), result));
+        LOGGER.info(String.format("Total passenger capacity of all '%s' planes = '%d'", airline.getName(), result));
         return result;
     }
 }

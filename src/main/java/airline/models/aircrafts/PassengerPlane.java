@@ -20,7 +20,7 @@ public class PassengerPlane extends Plane {
                 " passengerCapacity = " + passengerCapacity +
                 " fuelTank " + getFuelTank() +
                 " fuelConsumption " + getFuelConsumption() +
-                " maxdistance = " + getMaxDistance() +
+                " maxDistance = " + getMaxDistance() +
                 '}';
     }
 }

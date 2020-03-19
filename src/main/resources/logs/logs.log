@@ -1,42 +1,65 @@
-2020-02-28 14:39:09:764 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:39:09:772 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:39:20:839 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:39:20:845 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:42:58:815 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:42:58:819 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:42:58:819 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:42:58:820 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:42:58:821 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:42:58:821 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:42:58:824 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:42:58:826 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:44:26:855 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:26:858 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:26:858 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:26:858 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:26:859 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:26:859 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:26:861 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:44:26:863 INFO  Airport:print:27 - Это информационное сообщение!
-2020-02-28 14:44:51:092 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:51:097 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:51:097 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:51:098 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:51:098 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:51:098 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:44:51:100 INFO  Airport:print:27 - Вывожу на экран все самолётики: 
-2020-02-28 14:44:51:102 INFO  Airport:print:27 - Вывожу на экран все самолётики: 
-2020-02-28 14:45:52:141 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:45:52:146 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:45:52:146 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:45:52:147 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:45:52:147 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:45:52:147 INFO  PlanesService:buyNewAirplane:16 -  купили новый самолет
-2020-02-28 14:45:52:150 INFO  Airport:print:27 - 
- Вывожу на экран все самолётики: 
-2020-02-28 14:45:52:151 INFO  Airport:sort:35 - 
- самолётики отсортированы!
-2020-02-28 14:45:52:152 INFO  Airport:print:27 - 
- Вывожу на экран все самолётики: 
-2020-02-28 14:45:52:153 INFO  Airport:search:41 - 
- найдён искомый самолётик: 
+2020-03-19 12:37:00:590 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing708'
+2020-03-19 12:37:00:593 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing708') was bought by airport (name='Grodno_AIR')
+2020-03-19 12:37:00:594 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing709'
+2020-03-19 12:37:00:594 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing709') was bought by airport (name='Grodno_AIR')
+2020-03-19 12:37:00:595 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing727'
+2020-03-19 12:37:00:595 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing727') was bought by airport (name='Grodno_AIR')
+2020-03-19 12:37:00:599 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing737'
+2020-03-19 12:37:00:600 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing737') was bought by airport (name='Grodno_AIR')
+2020-03-19 12:37:00:600 INFO  PlaneServiceImpl:createNewCargoPlane:21 - New cargo plane created. ModelName = 'Boeing608'
+2020-03-19 12:37:00:601 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing608') was bought by airport (name='Grodno_AIR')
+2020-03-19 12:37:00:601 INFO  PlaneServiceImpl:createNewCargoPlane:21 - New cargo plane created. ModelName = 'Boeing609'
+2020-03-19 12:37:00:607 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing609') was bought by airport (name='Grodno_AIR')
+2020-03-19 12:37:00:608 INFO  AirlineServiceImpl:showAllPlanes:31 - display all planes: 
+2020-03-19 12:37:00:608 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 150 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 12:37:00:609 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 155 fuelTank 250000 fuelConsumption 55 maxdistance = 4545}
+2020-03-19 12:37:00:609 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 200 fuelTank 300000 fuelConsumption 78 maxdistance = 3846}
+2020-03-19 12:37:00:611 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 250 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 12:37:00:611 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=25 fuelTank 250000 fuelConsumption 48 maxdistance = 5208}
+2020-03-19 12:37:00:612 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=35 fuelTank 300000 fuelConsumption 60 maxdistance = 5000}
+2020-03-19 12:37:00:612 INFO  AirlineServiceImpl:sortByMaxDistance:39 - Sort planes by max distance...
+2020-03-19 12:37:00:685 INFO  AirlineServiceImpl:showAllPlanes:31 - display all planes: 
+2020-03-19 12:37:00:686 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=25 fuelTank 250000 fuelConsumption 48 maxdistance = 5208}
+2020-03-19 12:37:00:686 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 150 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 12:37:00:686 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 250 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 12:37:00:686 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=35 fuelTank 300000 fuelConsumption 60 maxdistance = 5000}
+2020-03-19 12:37:00:687 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 155 fuelTank 250000 fuelConsumption 55 maxdistance = 4545}
+2020-03-19 12:37:00:687 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 200 fuelTank 300000 fuelConsumption 78 maxdistance = 3846}
+2020-03-19 12:37:00:687 INFO  AirlineServiceImpl:searchPlaneByParameters:48 - this plane (modelName='Boeing608') has fuel consumption in the given parameters from '30' to '50'
+2020-03-19 12:37:00:688 INFO  AirlineServiceImpl:totalPassengerCapacity:75 - total passenger capacity of all 'Grodno_AIR' planes = '755'
+2020-03-19 12:37:00:688 INFO  AirlineServiceImpl:totalCarryingCapacity:64 - total carrying capacity of all 'Grodno_AIR' planes = '60'
+2020-03-19 19:02:53:236 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'test5'
+2020-03-19 19:02:53:244 INFO  AirlineServiceImpl:searchPlaneByParameters:48 - this plane (modelName='test3') has fuel consumption in the given parameters from '30' to '50'
+2020-03-19 19:02:53:246 INFO  AirlineServiceImpl:totalCarryingCapacity:64 - total carrying capacity of all 'test airline' planes = '70'
+2020-03-19 19:02:53:248 INFO  AirlineServiceImpl:totalPassengerCapacity:75 - total passenger capacity of all 'test airline' planes = '450'
+2020-03-19 19:02:53:252 INFO  AirlineServiceImpl:sortByMaxDistance:39 - Sort planes by max distance...
+2020-03-19 19:07:30:330 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing708'
+2020-03-19 19:07:30:333 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing708') was bought by airport (name='Grodno_AIR')
+2020-03-19 19:07:30:335 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing709'
+2020-03-19 19:07:30:336 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing709') was bought by airport (name='Grodno_AIR')
+2020-03-19 19:07:30:337 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing727'
+2020-03-19 19:07:30:337 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing727') was bought by airport (name='Grodno_AIR')
+2020-03-19 19:07:30:338 INFO  PlaneServiceImpl:createNewPassengerPlane:14 - New passenger plane created. ModelName = 'Boeing737'
+2020-03-19 19:07:30:339 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing737') was bought by airport (name='Grodno_AIR')
+2020-03-19 19:07:30:340 INFO  PlaneServiceImpl:createNewCargoPlane:21 - New cargo plane created. ModelName = 'Boeing608'
+2020-03-19 19:07:30:341 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing608') was bought by airport (name='Grodno_AIR')
+2020-03-19 19:07:30:341 INFO  PlaneServiceImpl:createNewCargoPlane:21 - New cargo plane created. ModelName = 'Boeing609'
+2020-03-19 19:07:30:342 INFO  AirlineServiceImpl:buyNewPlane:25 - New plane (modelName='Boeing609') was bought by airport (name='Grodno_AIR')
+2020-03-19 19:07:30:344 INFO  AirlineServiceImpl:showAllPlanes:31 - display all planes: 
+2020-03-19 19:07:30:344 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 150 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 19:07:30:345 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 155 fuelTank 250000 fuelConsumption 55 maxdistance = 4545}
+2020-03-19 19:07:30:347 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 200 fuelTank 300000 fuelConsumption 78 maxdistance = 3846}
+2020-03-19 19:07:30:348 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 250 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 19:07:30:349 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=25 fuelTank 250000 fuelConsumption 48 maxdistance = 5208}
+2020-03-19 19:07:30:350 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=35 fuelTank 300000 fuelConsumption 60 maxdistance = 5000}
+2020-03-19 19:07:30:355 INFO  AirlineServiceImpl:sortByMaxDistance:39 - Sort planes by max distance...
+2020-03-19 19:07:30:360 INFO  AirlineServiceImpl:showAllPlanes:31 - display all planes: 
+2020-03-19 19:07:30:361 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=25 fuelTank 250000 fuelConsumption 48 maxdistance = 5208}
+2020-03-19 19:07:30:364 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 150 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 19:07:30:365 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 250 fuelTank 270000 fuelConsumption 53 maxdistance = 5094}
+2020-03-19 19:07:30:366 INFO  AirlineServiceImpl:showAllPlanes:33 - CargoPlane{ cargoCapacity=35 fuelTank 300000 fuelConsumption 60 maxdistance = 5000}
+2020-03-19 19:07:30:367 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 155 fuelTank 250000 fuelConsumption 55 maxdistance = 4545}
+2020-03-19 19:07:30:368 INFO  AirlineServiceImpl:showAllPlanes:33 - PassengerPlane{ passengerCapacity = 200 fuelTank 300000 fuelConsumption 78 maxdistance = 3846}
+2020-03-19 19:07:30:369 INFO  AirlineServiceImpl:searchPlaneByParameters:48 - this plane (modelName='Boeing608') has fuel consumption in the given parameters from '30' to '50'
+2020-03-19 19:07:30:369 INFO  AirlineServiceImpl:totalPassengerCapacity:75 - total passenger capacity of all 'Grodno_AIR' planes = '755'
+2020-03-19 19:07:30:370 INFO  AirlineServiceImpl:totalCarryingCapacity:64 - total carrying capacity of all 'Grodno_AIR' planes = '60'
